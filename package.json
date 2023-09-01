@@ -2,7 +2,6 @@
   "name": "wa-gateway",
   "version": "3.2.1",
   "scripts": {
-    "install": "npm install",
     "start": "node index.js",
     "dev": "nodemon index.js --ignore ./wa_credentials --ignore ./public",
     "production": "node server.js -- --staging"
